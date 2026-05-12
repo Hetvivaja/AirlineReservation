@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="go_tours_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Go Tours</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+          <link rel="stylesheet" href="css/drop.css">
+        <link rel="stylesheet" href="css/fontawesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+     
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+    <footer>
+            <div class="container">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                </ul>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="item">
+                            <h4 class="text-uppercase">Contact us</h4>
+                            <p class="address">
+                                Indira Circle, <br>
+                                Kalavad Road, <br>
+                                Rajkot, Gujrat 360005<br>
+                                +91 9104798200
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</html>
